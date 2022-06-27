@@ -1,17 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Commu from './component/Commu';
+import Cafe from './component/Cafe';
 
 function App() {
   return (
     <div className="App">
       
-      <div className='form-wrapper'>
-        <input className="title-input" type='text' placeholder='제목' />
-      </div>
-      <button className="submit-button">입력</button>
-      
-    </div>
+      <Cafe />
+    
+    </div> 
   );
 }
 
