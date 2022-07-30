@@ -108,8 +108,7 @@ header {
 /* header */
 
 .main {
-    width: 100%;
-    height: 100%;
+    overflow: hidden;
 }
 
 .main-img1 {
@@ -154,7 +153,31 @@ header {
 
 }
 
-/* main */
+/* Commu-main */
+
+.slides {
+    width: 200vw;
+    transform: translate(-100vw)
+}
+
+.slide {
+    width: 100vw;
+    float: left;
+}
+
+.slide:first-child {
+    background: url('./img/slide1.png');
+    width: 100vw;
+    height: 400px;
+}
+
+.slide:nth-child(2) {
+    background: url('./img/slide2.png');
+    width: 100vw;
+    height: 400px;
+}
+
+/* Cafe-main */
 
 footer {
     height: 100px;
